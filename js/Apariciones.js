@@ -6,10 +6,10 @@ $(document).ready(function() {
 	$("#Barra").hide().delay(2000).show(1000);
 });
 $(document).ready(function() {
-	$(".Superheroes").hide().delay(3000).show(1000);
+	$(".CajaCompleta").hide().delay(3000).show(1000);
 });
 $(document).ready(function() {
-	$(".Princess").hide().delay(3000).show(1000);
+	$(".phones").hide().delay(3000).show(1000);
 });
 $(document).ready(function() {
 	$("footer").hide().delay(3000).show(1000);

@@ -211,3 +211,17 @@ footer div
 	width: 30%
 }
 
+.phones
+{
+  color: #424874;
+}
+
+.phones div
+{
+  display: inline-block;
+  margin: 0.5% 0%;
+  font-size: 85%;
+  text-align: center;
+  width: 30%
+}
+
