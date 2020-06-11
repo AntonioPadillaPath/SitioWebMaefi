@@ -1,16 +1,15 @@
 /*    #42423C  Sombras de nav
       #424874  Azul-Morado   */
 
-      body
-      {
-          background-image: url(../Imagenes/MaefiInclinado.png), url(../Imagenes/salmon.jpg);
-          background-size: 13%,cover;
-          -moz-background-size: ,cover;
-          -webkit-background-size: ,cover;
-          -o-background-size: ,cover;
-          background-repeat: no-repeat,repeat;
-          background-position: left top, ;
-      }
+body
+{
+    background-image: url(../Imagenes/lila.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: repeat;
+}
       
       .Inicio
       {
@@ -107,3 +106,29 @@
         text-align: center;
         width: 30%
       }
+
+      
+.MaefiLogo
+{
+	width: 150px;
+}
+
+.navbar-brand
+{
+	width: 15%;
+}
+
+.Nav 
+{
+	width: 120px;
+}
+
+li
+{
+	width: 120px;
+}
+
+.navbar
+{
+	font-size: 18px;
+}

@@ -1,21 +1,20 @@
 /*    #42423C  Sombras de nav
       #424874  Azul-Morado   */
 
-      body
-      {
-          background-image: url(../Imagenes/MaefiInclinado.png), url(../Imagenes/lila.jpg);
-          background-size: 13%,cover;
-          -moz-background-size: ,cover;
-          -webkit-background-size: ,cover;
-          -o-background-size: ,cover;
-          background-repeat: no-repeat,repeat;
-          background-position: left top, ;
-      }
+body
+{
+    background-image: url(../Imagenes/lila.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: repeat;
+}
       
-      .Inicio
-      {
-          width: 15%;
-          color: rgba(255, 255, 255, 0.0%);
+.Inicio
+{
+    width: 15%;
+    color: rgba(255, 255, 255, 0.0%);
           font-size: 400%;
           text-align: center;
           position: absolute;
@@ -25,16 +24,6 @@
       #Inicio
       {
           text-decoration: none;
-      }
-      
-      .Nav
-      {
-          width: 100%;
-      }
-      
-      li
-      {
-          width: 15%;
       }
 
       .Phone
@@ -133,7 +122,7 @@ textarea
       {
           float:left;
       }
-      
+      /*
       header
       {
           color: white;
@@ -168,7 +157,7 @@ textarea
           width: 90%;
           max-width: 1000px;
           margin: 20px auto;
-      }
+      }*/
       
       footer
       {
@@ -198,4 +187,30 @@ textarea
         font-size: 85%;
         text-align: center;
         width: 30%
+      }
+
+
+      .MaefiLogo
+      {
+          width: 150px;
+      }
+
+      .navbar-brand
+      {
+          width: 15%;
+      }
+
+      .Nav 
+      {
+          width: 120px;
+      }
+
+      li
+      {
+          width: 120px;
+      }
+
+      .navbar
+      {
+          font-size: 18px;
       }
