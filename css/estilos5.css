@@ -3,7 +3,7 @@
 
 body
 {
-    background-image: url(../Imagenes/lila.jpg);
+    background: url(../Imagenes/lila.jpg);
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -32,6 +32,158 @@ body
           float:left;
       }
 
+      li:hover
+      {
+          cursor: pointer;
+      }
+
+      .flex1
+      {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .modal1
+      {
+          display: none;
+          position: fixed;
+          z-index: 1;
+          overflow: auto;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.7);
+      }
+
+      .imagen
+      {
+          width: 100%;
+          border-radius: 15px;
+      }
+
+.contenido-modal1
+{
+    position: relative;
+    background-color: #fefefe;
+    
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.39);
+    animation-name: modal1;
+    animation-duration: 1s;
+    border-radius: 30px;
+          width: 60%;
+          max-width: 1000px;
+          margin: 20px auto;
+}
+
+@keyframes modal1
+{
+    from{top: -330px; opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+.close1
+{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close1:hover
+{
+    color: #7f8c8d;
+    cursor: pointer;
+}
+
+div div div ul li
+{
+    width: 100%;
+}
+
+div div div ul li:hover
+{
+    color: #424874;
+}
+
+.modal1-header, .modal1-footer
+{
+    padding: 8px 16px;
+    background: #424874;
+    color: #f2f2f2;
+    border-radius: 15px;
+}
+
+            
+      .CajaCompleta
+      {
+          border-radius: 30px;
+          width: 70%;
+          max-width: 1000px;
+          margin: 20px auto;
+      }
+      
+      .subCaja1, .subCaja2
+      {
+          width: 48%;
+          display: inline-block;
+          color: rgba(0, 0, 0, 0.5);
+      }
+
+      .d-block
+      {
+          width: 50%;
+          border-radius: 10px;
+      }
+
+      #imagen
+      {
+          display: none;
+      }
+
+      h3
+{
+    text-align: center;
+    color: white;
+}
+
+h6
+{
+    color: black;
+    text-align: center;
+}
+
+.cotiza
+{
+    text-decoration: none;
+}
+
+.cotiza:hover
+{
+    text-decoration: none;
+}
+
+.CajaCompletaCotiza
+{
+    background-color: rgba(66, 72, 116, 0.7);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
+
+.CajaCompletaCotiza:hover
+{
+    background-color: rgb(66, 72, 116);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
       
       footer
       {
@@ -87,4 +239,14 @@ li
 .navbar
 {
 	font-size: 18px;
+}
+
+.dropdown-item
+{
+    font-size: 12px;
+}
+
+.dropdown-item:hover
+{
+    font-size: 12px;
 }

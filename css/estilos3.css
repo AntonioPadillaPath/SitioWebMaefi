@@ -4,7 +4,7 @@
 
 body
 {
-    background-image: url(../Imagenes/lila.jpg);
+    background: url(../Imagenes/lila.jpg);
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -33,7 +33,67 @@ body
           float:left;
       }
       
+      .CajaCompleta
+      {
+          border-radius: 30px;
+          width: 70%;
+          max-width: 1000px;
+          margin: 20px auto;
+      }
+      
+      .subCaja1, .subCaja2
+      {
+          width: 48%;
+          display: inline-block;
+          color: rgba(0, 0, 0, 0.5);
+      }
 
+      .d-block
+{
+	width: 50%;
+	border-radius: 10px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+h3
+{
+    text-align: center;
+    color: white;
+}
+
+.cotiza
+{
+    text-decoration: none;
+}
+
+.cotiza:hover
+{
+    text-decoration: none;
+}
+
+.CajaCompletaCotiza
+{
+    background-color: rgba(66, 72, 116, 0.7);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
+
+.CajaCompletaCotiza:hover
+{
+    background-color: rgb(66, 72, 116);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
       
       footer
       {
