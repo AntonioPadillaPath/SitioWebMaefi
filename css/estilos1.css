@@ -5,6 +5,7 @@ body
 {
     background: url(../Imagenes/lila.jpg);
     background-size: cover;
+    background-attachment: fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -30,6 +31,51 @@ body
       {
           float:left;
       }
+
+      .CajaCompleta
+      {
+          border-radius: 30px;
+          width: 70%;
+          max-width: 1000px;
+          margin: 20px auto;
+      }
+      
+      .subCaja1, .subCaja2
+      {
+          width: 48%;
+          display: inline-block;
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 13px;
+      }
+
+      .subCaja3, .subCaja4
+      {
+          display: inline-block;
+          margin-left: 16%;
+      }
+
+      .cuento
+      {
+          width: 75%;
+      }
+
+      .princesas
+      {
+            font-size: 18px; 
+            width: 50%;
+            margin-left: 8%;        
+      }
+
+      div div div ul li
+{
+    width: 100%;
+}
+
+div div div ul li:hover
+{
+    color: #424874;
+    cursor: pointer;
+}
       
       footer
       {
@@ -86,4 +132,95 @@ li
 .navbar
 {
 	font-size: 18px;
+}
+
+h3
+{
+    text-align: center;
+    color: white;
+}
+
+.cotiza
+{
+    text-decoration: none;
+}
+
+.cotiza:hover
+{
+    text-decoration: none;
+}
+
+.CajaCompletaCotiza
+{
+    background-color: rgba(66, 72, 116, 0.7);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
+
+.CajaCompletaCotiza:hover
+{
+    background-color: rgb(66, 72, 116);
+    border-radius: 15px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+}
+
+.CajaCompletaCuentos
+{
+    background-color: rgba(66, 72, 116, 0.8);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaPrincesas
+{
+    background-color: rgba(226, 77, 194, 0.8);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaAventuras
+{
+    background-color: rgba(36, 95, 184, 0.8);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaInteractivos
+{
+    background-color: rgba(34, 175, 41, 0.8);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaPeques
+{
+    background-color: rgba(215, 218, 54, 0.9);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
 }
