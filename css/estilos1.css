@@ -54,18 +54,6 @@ body
           margin-left: 16%;
       }
 
-      .cuento
-      {
-          width: 75%;
-      }
-
-      .princesas
-      {
-            font-size: 18px; 
-            width: 50%;
-            margin-left: 8%;        
-      }
-
       div div div ul li
 {
     width: 100%;
@@ -150,6 +138,11 @@ h3
     text-decoration: none;
 }
 
+li
+{
+    list-style: none;
+}
+
 .CajaCompletaCotiza
 {
     background-color: rgba(66, 72, 116, 0.7);
@@ -223,4 +216,97 @@ h3
     color: white;
     text-align: center;
     padding: 1% 0;
+}
+
+.CajaCompletaNovedades
+{
+    background-color: rgba(152, 54, 218, 0.9);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaTemporada
+{
+    background-color: rgba(221, 188, 0, 0.9);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.CajaCompletaMickey
+{
+    background-color: rgba(221, 0, 0, 0.9);
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0.5px 0.5px 7px gray;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+/*Edición de cajas por Temas*/
+.CajaCompletaTema
+{
+    border-radius: 30px;
+    width: 70%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.subCajaTema3, .subCajaTema4
+{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cuentoTema
+{
+    width: 80%;
+    margin-left: 14%;
+}
+
+.interactivoTema
+{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.subCajaTema6
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.princesasTema
+{
+    width: 100%;
+}
+
+.avengersTema
+{
+    width: 100%;
+}
+
+.pequesTema
+{
+    width: 100%;
+}
+
+.novedadesTema
+{
+    width: 70%;
+}
+
+.mickeyTema
+{
+    width: 100%;
 }
