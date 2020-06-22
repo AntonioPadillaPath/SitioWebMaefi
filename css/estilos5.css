@@ -256,6 +256,11 @@ li
     font-size: 12px;
 }
 
+.dropdown-menu
+{
+    box-shadow: 0.5px 0.5px 7px gray;
+}
+
 .dropdown-item:hover
 {
     font-size: 12px;
